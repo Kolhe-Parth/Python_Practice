@@ -61,3 +61,27 @@ while p<=row:
 
     print()
     p=p+1
+
+print("--------------------------------")
+
+#    1 2 3 4
+#    2 3 4
+#    3 4
+#    4
+
+for j in range(5):
+    for i in range(j+1,5):
+        print(i,end=" ")
+
+    print()
+
+
+print("-------------------------------")
+
+#       A P Q R
+#       A B Q R
+#       A B C R
+#       A B C D
+#
+
+
