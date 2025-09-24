@@ -10,3 +10,28 @@ while series < 50:
     num1=num2
     num2=series
     series = num1 + num2
+
+
+#Using Function
+print("\n----------------Using function---------------------")
+def fibonacci(n):
+    a=0
+    b=1
+
+
+    if n==1:
+        print(a,end='')
+    else:
+        print(a,b,end=' ')
+        for i in range(2,n):
+            c=a+b
+            a=b
+            b=c
+            print(c,end=' ')
+
+
+num=int(input("Enter the number you want to print fibonacci numbers:"))
+
+fibonacci(num)
+
+
