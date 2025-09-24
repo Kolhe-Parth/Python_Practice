@@ -8,10 +8,10 @@ This repository contains my Python practice scripts created while learning progr
    - Ensure Python is added to your PATH (check with `python --version` in terminal).
 2. **Clone or Download the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/Kolhe-Parth/Python_Practice.git
    ```
 3. **Run Scripts**:
-   - Navigate to the repository folder: `cd your-repository-name`.
+   - Navigate to the repository folder: `cd Python_Practice`.
    - Run a script: `python script_name.py` (e.g., `python hello_world.py`).
    - Some scripts may require libraries (listed in `requirements.txt` if included).
 
