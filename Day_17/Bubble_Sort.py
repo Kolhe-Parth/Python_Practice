@@ -1,4 +1,4 @@
-
+#compare each element with next element if i > i+1 swap then check i+1 > i+2 follow same
 list=[]
 
 def sort(list,len):
